@@ -4,3 +4,6 @@ body {
 /* .header-background {
   background: #264653;
 } */
+.greyscale {
+  filter: grayscale(100%);
+}
