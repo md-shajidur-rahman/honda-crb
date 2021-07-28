@@ -10,18 +10,44 @@
 
     <!-- Vanilla CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- google font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-secondary text-white">
-        <div class="container d-flex align-items-center">
-            <div>
-                <p>Computer-controlled digital transistorized with electronic advance</p>
-                <h1>Honda CBR 300R</h1>
-                <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function.</p>
-                <button class="btn btn-danger">Purchase</button>
-            </div>
-            <div>
-                <img src="images/header-bike.png" alt="">
+    <header class="bg-secondary text-white ">
+        <div class="container">
+            <div class="row d-flex align-items-center py-5">
+                <div class="col-12 col-lg-6">
+                    <p>Computer-controlled digital transistorized with electronic advance</p>
+                    <h1>Honda CBR 300R</h1>
+                    <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function.</p>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+                    <div class="modal fade text-info" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Driving License</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Require to provide A1 Full Driving License while buying this bike. Can you do that?
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yes</button>
+                            <button type="button" class="btn btn-primary">No</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="images/header-bike.png" alt="">
+                </div>
             </div>
         </div>
 
