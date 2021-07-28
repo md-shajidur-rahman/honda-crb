@@ -4,6 +4,14 @@ body {
 /* .header-background {
   background: #264653;
 } */
+.client-img {
+  width: 149px;
+  height: 149px;
+}
 .greyscale {
   filter: grayscale(100%);
+}
+.star-size {
+  width: 22.01px;
+  height: 22.01px;
 }
